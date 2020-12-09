@@ -1,0 +1,7 @@
+# exclude everything
+db_data/*
+logs/nginx/*
+
+# exception to the rule
+!db_data/.gitkeep 
+!logs/nginx/.gitkeep 

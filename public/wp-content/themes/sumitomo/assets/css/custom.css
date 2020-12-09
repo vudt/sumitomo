@@ -1,0 +1,411 @@
+.lgx-custom {
+  background: url('../img/main-banner-new.jpg') top center no-repeat;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.info-circle-inner h3.location{
+	color: #000;
+    font-weight: 400;
+    margin-top: -17px;
+    font-size: 2.5rem;
+    line-height: 2.9rem;
+    opacity: .9;
+}
+
+.info-circle-inner h3.location span{display: block;font-size: 1.7rem;}
+.lgx-banner-info .title span{
+  font-weight: 400;
+  font-size: 7.5rem;
+}
+
+.lgx-footer-area {display: flex;align-items: center;justify-content: space-between;}
+.lgx-banner-inner-custom{
+    background: url(../img/main-banner-new.jpg) top center no-repeat;
+    -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.header-custom{background: #fff; padding: 20px 0;}
+.lgx-header .header-custom .lgx-logo{margin-top: 0px; max-width: 350px;}
+.lgx-header .header-custom .lgx-nav-right{margin:0px;}
+.lgx-header .top-bg{
+  height: 10px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#96ca50+0,00b8f1+99 */
+  background: #96ca50; /* Old browsers */
+  background: -moz-linear-gradient(left, #96ca50 0%, #00b8f1 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #96ca50 0%,#00b8f1 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #96ca50 0%,#00b8f1 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#96ca50', endColorstr='#00b8f1',GradientType=1 ); /* IE6-9 */
+}
+
+.lgx-single-speaker3 figure{cursor: pointer;}
+.lgx-single-speaker2 .speaker-info .title{font-size: 20px;color: inherit;}
+.lgx-single-speaker2 .speaker-info.last-speaker .title{font-size: 15px;}
+.speaker-details h3{margin-top: 0px;}
+.speaker-details img{margin-bottom: 20px;}
+
+.lgx-heading .heading{line-height: 1;margin: 0px;}
+.lgx-banner-inner-custom .lgx-heading{margin: 0px;}
+.lgx-banner-inner-custom .lgx-page-inner{padding: 11rem 0;}
+
+.otherform1,
+.otherform2{display: none;}
+
+.lgx-contactform .form-control, .lgx-contactform .um-form input[type=text], .lgx-contactform .um-form input[type=search], .lgx-contactform .um-form input[type=tel], .lgx-contactform .um-form input[type=number], .lgx-contactform .um-form input[type=password], .um-login input[type=text], .um-login input[type=password], .um-password input[type=text], .um-password .um-form input[type=password] {
+    display: block  !important;
+    text-align: left !important;
+    width: 100% !important;
+    height: 50px !important;
+    padding: 1.5rem 2rem !important;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    color: #555 !important;
+    background-color: #fff !important;
+    background-image: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.um-login .um-form input[type=text], .um-login .um-form input[type=password], .um-password .um-form input[type=text], .um-password .um-form input[type=password] {
+  border: 0 !important;
+}
+
+.lgx-contactform .um-field-label {
+  margin: 0 !important;
+}
+
+.lgx-contactform .um-field-label label {
+  font-weight: 700 !important;
+  font-size: 16px !important;
+}
+
+.lgx-contactform .um-form select {
+  box-sizing: border-box !important;
+}
+
+.lgx-contactform .um-12.um, .lgx-contactform .um-register {
+  width: 100% !important;
+  max-width: inherit !important;
+}
+
+.lgx-contactform .um-field {
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+  box-sizing: border-box !important;
+  margin-bottom: 2rem;
+}
+
+.lgx-contactform .um-col-1 {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.lgx-contactform ._um_row_1 {
+  display: inline-block;
+  width: 100%;
+  margin: 0 !important;
+}
+
+#um_field_12_healthcare_professional {
+  width: 100% !important;
+}
+
+#um_field_12_healthcare_professional .um-field-label {
+  display: none;
+}
+
+#um_field_12_healthcare_professional .um-field-checkbox {
+  font-weight: 500;
+}
+
+#um_field_12_healthcare_professional .um-field-checkbox-option {
+  font-size: 16px;
+  color: rgba(50, 51, 51, 0.8) !important;
+  margin-left: 28px;
+}
+
+.head_text_reg {
+  text-align: left;
+}
+
+#um_field_12_personal_data_protection_declaration_1 {
+  width: 100% !important;
+  margin: 10px 0 !important;
+}
+
+#um_field_12_personal_data_protection_declaration_1 .um-field-label {
+  display: none;
+}
+
+#um_field_12_personal_data_protection_declaration_1 .um-field-checkbox {
+  margin: 0 !important;
+}
+
+#um_field_12_personal_data_protection_declaration_2 {
+  width: 100% !important;
+  margin: 10px 0 !important;
+}
+
+#um_field_12_personal_data_protection_declaration_2 .um-field-label {
+  display: none;
+}
+
+#um_field_12_personal_data_protection_declaration_2 .um-field-checkbox {
+  margin: 0 !important;
+}
+
+.lgx-contactform .um-field-checkbox {
+  width: 100% !important;
+}
+
+.um-row.alert-success {
+  display: inline-block;
+  width: 100% !important;
+  background: #fff;
+  color: #3c763d;
+  border-color: #d6e9c6;
+  padding: 15px !important;
+  margin-bottom: 20px;
+  border: 1px solid #d6e9c6 !important;
+  border-radius: 4px !important;
+}
+
+.um-row.alert-success .um-field-checkbox-option {
+  color: #3c763d !important;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 28px !important;
+}
+
+.lgx-contactform .um-col-alt .um-center {
+  text-align: left !important;
+}
+
+.lgx-contactform ._um_row_2 {
+  margin-bottom: 10px !important;
+}
+
+.lgx-contactform .alert-heading {
+  margin-bottom: 0;
+}
+
+.lgx-contactform .um-button {
+  padding: 1.5rem 4rem !important;
+  margin: 0 !important;
+  min-width: inherit !important;
+  border-radius: 0 !important;
+  line-height: inherit !important;
+}
+
+#um_field_12_salutation {
+  width: 100%;
+}
+
+#um_field_12_salutation .um-field-area {
+  width: 50%;
+  padding-right: 15px;
+}
+
+#um_field_12_specify_your_profession {
+  display: block;
+  width: 100%;
+}
+
+#um_field_12_specify_your_profession .um-field-area {
+  width: 50%;
+  padding-right: 15px;
+}
+
+.lgx-contactform .um-col-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#um_field_12_healthcare_professional {
+  order: 1
+}
+
+#um_field_12_salutation {
+  order: 2
+}
+
+#um_field_12_first_name {
+  order: 3
+}
+
+#um_field_12_last_name {
+  order: 4
+}
+
+#um_field_12_user_email {
+  order: 5
+}
+
+#um_field_12_user_password {
+  order: 6
+}
+
+#um_field_12_confirm_user_password {
+  order: 8
+}
+
+#um_field_12_country_region {
+  order: 7
+}
+
+#um_field_12_job_title {
+  order: 9
+}
+
+#um_field_12_organisation {
+  order: 10
+}
+
+#um_field_12_specify_job_title {
+  order: 11;
+  width: 100%;
+}
+
+#um_field_12_specify_job_title .um-field-label, #um_field_12_specify_job_title .um-field-area {
+  width: 50%;
+  padding-right: 15px;
+}
+
+#um_field_12_your_profession {
+  order: 12
+}
+
+#um_field_12_specify_your_profession {
+  order: 13
+}
+
+.um-postmessage {
+  font-size: 16px;
+}
+
+.wrap-thankyou p {
+  margin-bottom: 10px;
+}
+
+.btn-calendar {
+  text-decoration:none;
+  color:#fff;
+  background-color:#2d963a;
+  padding:10px 16px;
+  font-weight:700;
+  margin-right:10px;
+  text-align:center;
+  cursor:pointer;
+  display:inline-block;
+}
+
+.btn-calendar:hover {
+  color: #fff !important;
+}
+
+.um-error-code-incorrect_password {
+  display: none !important;
+}
+
+.um-login .um-button, .um-password .um-button {
+  font-size: 14px
+}
+
+@media (max-width: 1199px){
+  .lgx-banner-info-circle .info-circle-inner{width: 300px; height: 300px;}
+  .lgx-banner-info-circle .info-circle-inner .date{padding-top: 0rem;}
+  .lgx-banner-info-circle .info-circle-inner .date{font-size: 18rem; line-height: 19rem;}
+  .lgx-banner-info .action-area{margin-top: 1rem;}
+  .lgx-banner-info .title{font-size: 7rem; line-height: 8rem;}
+  .lgx-banner-info .title span{font-size: 6.5rem;}
+  .navbar-right{margin-right: 0px;}
+  .lgx-header .lgx-navbar .lgx-logo{margin-left: 15px;}
+  .lgx-header .lgx-navbar .lgx-logo a img{width: 350px;}
+  .lgx-tab .lgx-nav{padding: 0px;}
+  .lgx-tab .nav-pills{margin-bottom: 0rem;}
+  .lgx-single-speaker2 .speaker-info .title a{font-size: 16px;}
+  .lgx-single-speaker2 .last-speaker .title a{font-size: 12px !important;}
+}
+
+@media (max-width: 991px){
+  .lgx-header .lgx-navbar .lgx-logo a img{max-width: 300px;}
+  .lgx-banner-info-circle{background: none;}
+}
+
+@media (max-width: 767px){
+  .lgx-banner .lgx-inner{padding: 8rem 0 11rem;}
+  .lgx-banner-info-circle .info-circle-inner{width: auto; height: auto;}
+  .header-custom{text-align: center;}
+  .lgx-header .lgx-navbar .lgx-logo{margin:0;}
+  .lgx-banner-info-circle .info-circle-inner .date{
+    font-size: 4.2rem;
+    line-height: 5rem;
+  }
+  .info-circle-inner h3.location{margin-top: 8px;}
+  .info-circle-inner h3.location span{display: inline-block;font-size: 2.5rem;}
+  .lgx-banner-info .date, .lgx-banner-info .location{max-width: 80%;margin: .3rem auto .3rem}
+  .lgx-banner-info .action-area{display: block;}
+  .lgx-banner-info-area{ text-align: center; }
+
+  .lgx-contactform .um-field, #um_field_12_salutation .um-field-area {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  #um_field_12_salutation .um-field-area {
+    width: 100%;
+    padding: 0 !important;
+  }
+
+  #um_field_12_specify_job_title .um-field-label, #um_field_12_specify_job_title .um-field-area, #um_field_12_specify_your_profession .um-field-area {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  #um_field_12_confirm_user_password {
+    order: 7;
+  }
+  #um_field_12_country_region {
+    order: 8;
+  }
+  #um_field_12_specify_job_title {
+    order: 9
+  }
+  #um_field_12_organisation {
+    order: 10
+  }
+  .lgx-navbar .navbar-collapse {display: block !important}
+  .lgx-navbar.navbar-default .navbar-collapse {border:none;}
+  .lgx-navbar.navbar-default .navbar-collapse .lgx-cart-area{margin: 20px auto 0 auto;}
+}
+
+@media (max-width: 480px){
+  .lgx-banner-info .title{font-size: 5rem;line-height: 6rem;}
+  .lgx-banner-info .title span{font-size: 5rem;}
+}
+
+@media (max-width: 375px){
+  .lgx-banner .lgx-inner{padding: 4rem 0 4rem;}
+  .lgx-banner-info-circle .info-circle-inner .date{font-size: 3.2rem;line-height: 2rem;}
+  .lgx-banner-info-circle .info-circle-inner{margin-bottom: 0px;}
+  .lgx-banner-info .title{font-size: 4rem; line-height: 5rem;}
+  .lgx-banner-info .title span{font-size: 4rem;}
+  .lgx-banner-info .date, .lgx-banner-info .location{ max-width: 100%;}
+  .lgx-single-speaker2{margin-bottom: 0px;}
+  .lgx-single-speaker3 .speaker-info{padding: 0px;}
+  .lgx-single-speaker2 .speaker-info .title{font-size: 11px;}
+  .lgx-single-speaker2 .speaker-info.last-speaker .title{font-size: 7px;}
+  .lgx-footer-single{margin: 0 10px 0; text-align: left; vertical-align: top;}
+  .lgx-footer-single .footer-title{margin: 0 0 10px 0;}
+  .lgx-footer-area{align-items: flex-start;}
+}

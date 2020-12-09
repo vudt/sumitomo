@@ -1,0 +1,58 @@
+version: '3.3'
+
+#NETWORK
+networks:
+  lemp-network:
+    driver: bridge
+
+#VOLUMES
+volumes:
+  lemp_data: {}
+  database: {}
+
+services:
+  vu-php:
+    container_name: php-lemp
+    build:
+      dockerfile: Dockerfile
+      context: ./docker/php-fpm
+    hostname: php
+    restart: always
+    networks:
+      - lemp-network
+    volumes:
+      - ./:/var/www/html/ #ánh xạ ổ đĩa dir-site vào folder trong container
+  nginx:
+    container_name: nginx-product
+    #build: ./nginx
+    build: 
+      dockerfile: Dockerfile
+      context: ./docker/nginx
+    ports:
+      - "8080:80"
+      - "443:443"
+    depends_on:
+      - vu-php
+    networks:
+      - lemp-network
+    volumes:
+      # Logging
+      - ./logs/nginx:/var/log/nginx/
+      - ./:/var/www/html/ # ánh xạ code ở đĩa vào folder trong container
+    # container Mysql
+  lemp-mysql:
+    container_name: lemp-mysql
+    image: "mysql:latest"
+    command: --default-authentication-plugin=mysql_native_password
+    hostname: mysql
+    restart: always
+    networks:
+      - lemp-network
+    volumes:
+      - ./db_data:/var/lib/mysql 
+      - ./database:/docker-entrypoint-initdb.d
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_DATABASE=wp_sumimoto
+      - MYSQL_USER=dev_sumimoto
+      - MYSQL_PASSWORD=123456
