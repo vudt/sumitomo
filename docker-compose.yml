@@ -21,10 +21,9 @@ services:
     networks:
       - lemp-network
     volumes:
-      - ./:/var/www/html/ #ánh xạ ổ đĩa dir-site vào folder trong container
+      - ./:/var/www/html/ 
   nginx:
     container_name: nginx-product
-    #build: ./nginx
     build: 
       dockerfile: Dockerfile
       context: ./docker/nginx
@@ -38,7 +37,7 @@ services:
     volumes:
       # Logging
       - ./logs/nginx:/var/log/nginx/
-      - ./:/var/www/html/ # ánh xạ code ở đĩa vào folder trong container
+      - ./:/var/www/html/
     # container Mysql
   lemp-mysql:
     container_name: lemp-mysql
